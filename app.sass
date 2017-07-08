@@ -1,0 +1,76 @@
+body
+  padding: 0
+  margin: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  height: 100vh
+  width: 100vw
+  background-image: linear-gradient(rgba(209, 226, 255, 0.15), rgba(209, 226, 255, 0.05))
+
+#container
+  content: "dupa"
+  background-color: rgba(255,255,255,.8)
+  background-image: url('http://svgshare.com/i/2CP.svg')
+  background-repeat: no-repeat
+  background-size: contain
+  width: auto
+  max-width: 60vw
+  padding: 10px 50px
+  border-radius: 5px
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.05)
+
+footer
+  position: fixed
+  bottom: 0
+  font-style: normal
+  font-size: 0.7em
+  width: 100%
+  background-image: linear-gradient(transparent, rgba(255,255,255,.50))
+  display: flex
+  justify-content: center
+
+.button
+  position: fixed
+  color: white
+  background-color: rgba(0,0,0,.2)
+  border: none
+  padding: 12px 15px
+  border-radius: 3px
+  font-size: .7em
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3)
+  &:hover
+    transition: box-shadow 0.3s
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.3)
+  &:active
+    transform: translate(1px, 1px)
+  &:focus
+    border: none
+
+#newQuote
+  bottom: 50px
+  right: 50px
+
+#tweetButton
+  bottom: 50px
+  left: 50px
+
+
+
+// TEXT
+h1,
+p
+  font-family: "Lato", sans-serif
+  font-style: italic
+  color: grey
+
+h1
+  font-weight: 300
+
+p
+  text-align: right
+  font-size: 1.2em
+
+.twitter-share-button
+  position: fixed
